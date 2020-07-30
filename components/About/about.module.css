@@ -17,7 +17,7 @@
 .profile img {
   height: 500px;
   width: 400px;
-  background: url('/assets/profileBG.jpg') center no-repeat;
+  background: url('/assets/BGAbout.jpg') center no-repeat;
   background-size: cover;
   border-radius: 20px;
 }
