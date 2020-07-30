@@ -1,7 +1,7 @@
 .banner {
   width: 100%;
   height: 600px;
-  background: url('/assets/bannerImage.jpg') center no-repeat;
+  background: url('/assets/bannerImage1.jpg') center no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
