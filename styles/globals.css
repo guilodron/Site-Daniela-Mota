@@ -6,6 +6,7 @@ body {
   background-color: #F7F7F7;
   color: #112229;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 a {
