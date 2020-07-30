@@ -1,6 +1,16 @@
+import { useEffect } from "react";
+import AOS from 'aos';
+
 const { default: Head } = require("next/head")
 
 const Layout = ({children}) => {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000
+    })
+  }, []);
+
   return (
     <>
       <Head>

@@ -21,7 +21,7 @@ const About = () => {
           </a>
         </div>
       </div>
-      <div className={styles.aboutText}>
+      <div data-aos="fade-left" className={styles.aboutText}>
         <h2>
           Sobre mim
         </h2>

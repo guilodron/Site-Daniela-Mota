@@ -1,15 +1,44 @@
 .servicesContainer {
   margin-top: 100px;
   width: 100%;
-  height: 700px;
   background: #E4EDEE;
+  padding-bottom: 50px;
 }
 
 .services {
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   max-width: 1295px;
   width: 100%;
   height: 100%;
   margin: 0 auto;
-  border: 1px solid black;
+  /* border: 1px solid black; */
+}
+
+.services h2 {
+  font-size: 48px;
+  margin-bottom: 70px;
+}
+
+.serviceIcons {
+  width: 100%;
+  display: grid;
+  row-gap: 70px;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+}
+
+@media(max-width: 940px) {
+  .serviceIcons {
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+  }
+}
+
+@media(max-width: 600px) {
+  .serviceIcons {
+    grid-template-columns: auto;
+    justify-content: center;
+  }
 }
