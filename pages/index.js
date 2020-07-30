@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import Banner from '../components/Banner'
 import About from '../components/About'
 import Services from '../components/Services'
+import styles from '../styles/index.module.css'
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Banner />
       <About />
       <Services />
+      <div className={styles.transition}></div>
     </Layout>
   )
 }
