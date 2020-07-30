@@ -1,0 +1,15 @@
+.servicesContainer {
+  margin-top: 100px;
+  width: 100%;
+  height: 700px;
+  background: #E4EDEE;
+}
+
+.services {
+  
+  max-width: 1295px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  border: 1px solid black;
+}
