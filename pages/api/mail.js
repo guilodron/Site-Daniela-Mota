@@ -8,7 +8,7 @@ export default async (req, res) => {
   //   emailOrPhone,
   //   text
   // });
-  console.log(name, emailOrPhone, text);
+  console.log(name, emailOrPhone, text, process.env.EMAIL_USERNAME, process.env.EMAIL_PASSWORD);
 
   // create reusable transporter object using the default SMTP transport
   let transporter = nodemailer.createTransport({
