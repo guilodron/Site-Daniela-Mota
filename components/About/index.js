@@ -7,19 +7,6 @@ const About = () => {
     <section className={styles.about} id="about">
       <div className={styles.profile}>
         <img src="/assets/about 3.png" />
-        <div className={styles.aboutIcons}>
-          
-          <Link href="/curriculo">
-            <a>
-              <GrDocumentText />
-              Currículo
-            </a>
-          </Link>
-          <a target="_blank" href="https://www.linkedin.com/in/danielamotaadv/">
-            <GrLinkedin />
-            Linkedin
-          </a>
-        </div>
       </div>
       <div data-aos="fade-left" className={styles.aboutText}>
         <h2>

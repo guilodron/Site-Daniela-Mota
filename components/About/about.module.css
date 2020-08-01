@@ -22,22 +22,6 @@
   border-radius: 20px;
 }
 
-.aboutIcons {
-  margin-top: 10px;
-  font-size: 18px;
-  font-weight: 700;
-  color: #6C6767;
-  transition: 0.3s;
-}
-
-.aboutIcons a {
-  margin-right: 50px;
-}
-
-.aboutIcons a:hover {
-  color: #474545;
-}
-
 .aboutText {
   display: flex;
   flex-direction: column;

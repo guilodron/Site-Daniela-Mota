@@ -17,15 +17,15 @@ const Contact = () =>{
           </div>
           <div>
             <span><FiPhone /> Celular</span>
-            <strong>(61) 98356-3737</strong>
+            <strong><a target="_blank" href="https://api.whatsapp.com/send?phone=5561983563737&text=Ol%C3%A1%20Dra.%20Daniela%2C%20">(61) 98356-3737</a></strong>
           </div>
           <div>
             <span><FiInstagram /> Instagram</span>
-            <strong>@danielamota.adv</strong>
+            <strong><a target="_blank" href="https://www.instagram.com/danielamota.adv/">@danielamota.adv</a></strong>
           </div>
           <div>
             <span><FiLinkedin /> Linkedin</span>
-            <strong><a href="/">Daniela Mota</a></strong>
+            <strong><a target="_blank" href="https://www.linkedin.com/in/danielamotaadv/">Daniela Mota</a></strong>
           </div>
         </div>
         <div className={styles.contactForm}>
