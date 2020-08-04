@@ -1,0 +1,56 @@
+.createForm {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.createForm input {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.createForm textarea {
+  font-size: 18px;
+}
+
+.createForm button {
+  border: none;
+  background: lightblue;
+  height: 30px;
+  margin-top: 10px; 
+}
+
+.articlesContainer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.article {
+  height: 80px;
+  border: black solid 1px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.article div {
+  display: flex;
+  flex-direction: column;
+  margin: 0 15px;
+  flex: 1;
+}
+
+.article svg {
+  font-size: 24px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.article svg:hover {
+  background-color: red;
+}
