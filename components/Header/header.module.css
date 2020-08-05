@@ -1,5 +1,8 @@
 .headerContainer {
   background-color: white;
+  height: 90px;
+  width: 100%;
+  /* position: relative;   */
 }
 
 .header {
@@ -40,6 +43,36 @@
 
 @media(max-width: 800px) {
   .nav {
-    display: none;
+    flex-direction: column;
+    top: 0;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.87);
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    right: -100%;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 2;
+    transition: 0.3s;
+  }
+
+  .line {
+    width: 30px;
+    height: 3px;
+    background: #C6AD4D;
+    margin: 5px;  
+  }
+  .hamburguer {
+    position: absolute;
+    cursor: pointer;
+    right: 20px;
+    top: 30px;
+    z-index: 2;
+  }
+
+  .open{
+    right: 0%;
   }
 }
