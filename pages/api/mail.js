@@ -1,7 +1,6 @@
 import nodemailer from 'nodemailer';
 
 export default async (req, res) => {
-  console.log(req.body);
   const {name, emailOrPhone, text} = req.body;
   // create reusable transporter object using the default SMTP transport
   let transporter = nodemailer.createTransport({

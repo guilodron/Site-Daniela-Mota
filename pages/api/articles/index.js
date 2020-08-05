@@ -8,10 +8,8 @@ export default async(req, res) => {
     const {title, subtitle, content} = req.body;
     const titleExists = await Article.findOne({title})
     if(titleExists !== null){
-      // console.log(titleExists)
       return res.json({success: false});
     }
-    console.log(titleExists)
     const article = await Article.create({
       title,
       subtitle,
@@ -23,7 +21,6 @@ export default async(req, res) => {
 
   else if(req.method === 'GET') {
     const articles = await Article.find({});
-    console.log('aqui')
     return res.json(articles);
   }
 

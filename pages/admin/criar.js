@@ -12,8 +12,7 @@ const criar = () => {
       .then(artigos => setArticles(artigos))
   }, []);
 
-  const deleteArrticle = useCallback(async (articleId) => { 
-    console.log(articleId);
+  const deleteArticle = useCallback(async (articleId) => { 
     await axios.delete('/api/articles', {data: {id: articleId}});
     setArticles(articles.filter(article => article._id !== articleId));
 
@@ -37,15 +36,16 @@ const criar = () => {
           }
           return errors;
         }}
-        onSubmit={async (values, { setSubmitting }) => {
+        onSubmit={async (values, { resetForm }) => {
           const { title, subtitle, content } = values;
           const article = await axios.post('/api/articles', {
             title,
             subtitle,
             content
           });
-          setArticles([...articles, article.data.article])
-          alert(article.data.success ? 'criado com sucesso' : 'erro na criacao')
+          setArticles([...articles, article.data.article]);
+          alert(article.data.success ? 'criado com sucesso' : 'erro na criacao');
+          resetForm({values: ''});
         }}
       >
         {({ isSubmitting }) => (
@@ -81,7 +81,7 @@ const criar = () => {
                   minute: 'numeric'
                   }).format(new Date(article.created_at))}</span>
               </div>
-              <GrTrash onClick={() => deleteArrticle(article._id)}/>
+              <GrTrash onClick={() => deleteArticle(article._id)}/>
             </div>
           ))}
       </div>
