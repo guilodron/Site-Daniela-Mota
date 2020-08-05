@@ -61,7 +61,7 @@ const Contact = () =>{
               <ErrorMessage name="name" component="div" />
               <Field name="emailOrPhone" placeholder="Email e/ou telefone para contato" />
               <ErrorMessage name="emailOrPhone" component="div" />
-              <Field component="textarea" rows={7} placeholder="Digite sua mensagem" name="text" />
+              <Field component="textarea" rows={7} placeholder="Digite sua dúvida" name="text" />
               <ErrorMessage name="text" component="div" />
               <button type="submit" disabled={isSubmitting}>
                 Enviar
