@@ -1,0 +1,23 @@
+.footer {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #242323;
+  color: rgb(75, 75, 75);
+}
+
+.footer a {
+  display: flex;
+  align-items: center;
+  margin: 0 5px;
+}
+
+.footer a svg{
+  margin-left: 5px;
+}
+
+.footer a:hover{
+  color: rgb(114, 114, 114);
+}
