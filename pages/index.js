@@ -15,7 +15,7 @@ export default function Home() {
       <div className={styles.transition}></div>
       <Contact />
       <div className={styles.articles}>
-        <h2>"O entendimento em direito condominial é essencial para a convivência."</h2>
+        <h2>"O entendimento em direito condominial é fundamental para uma convivência pacífica permeada de legalidade."</h2>
         <Link href='/articles'><a><button>Confira meus artigos</button></a></Link>
       </div>
       <div id="media" className={styles.media}>
