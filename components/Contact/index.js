@@ -1,7 +1,7 @@
 import React from 'react';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import styles from './contact.module.css'
-import {FiLinkedin, FiMail, FiInstagram, FiPhone} from 'react-icons/fi';
+import {FiLinkedin, FiMail, FiInstagram, FiPhone, FiExternalLink} from 'react-icons/fi';
 import axios from 'axios';
 
 const Contact = () =>{
@@ -17,19 +17,19 @@ const Contact = () =>{
           </div>
           <div>
             <span><FiPhone /> Celular</span>
-            <strong><a target="_blank" href="https://api.whatsapp.com/send?phone=5561983563737&text=Ol%C3%A1%20Dra.%20Daniela%2C%20">(61) 98356-3737</a></strong>
+            <strong><a target="_blank" href="https://api.whatsapp.com/send?phone=5561983563737&text=Ol%C3%A1%20Dra.%20Daniela%2C%20">(61) 98356-3737 <FiExternalLink /></a></strong>
           </div>
           <div>
             <span><FiInstagram /> Instagram</span>
-            <strong><a target="_blank" href="https://www.instagram.com/danielamota.adv/">@danielamota.adv</a></strong>
+            <strong><a target="_blank" href="https://www.instagram.com/danielamota.adv/">@danielamota.adv <FiExternalLink /></a></strong>
           </div>
           <div>
             <span><FiLinkedin /> Linkedin</span>
-            <strong><a target="_blank" href="https://www.linkedin.com/in/danielamotaadv/">Daniela Mota</a></strong>
+            <strong><a target="_blank" href="https://www.linkedin.com/in/danielamotaadv/">Daniela Mota <FiExternalLink /></a></strong>
           </div>
         </div>
         <div className={styles.contactForm}>
-          <span style={{marginBottom: 10, color: '#E6D4A8', fontSize: 24}}>Envie uma mensagem</span>
+          <span style={{marginBottom: 10, color: '#E6D4A8', fontSize: 24}}>Em que posso ajudar?</span>
           <Formik
             initialValues={{ name: '', emailOrPhone: '', text: '' }}
             validate={values => {

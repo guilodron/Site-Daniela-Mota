@@ -39,6 +39,19 @@
   font-weight: 500;
 }
 
+.contactInfo div a {
+  display: flex;
+  align-items: center;
+}
+
+.contactInfo div a svg{
+  margin-left: 7px;
+}
+
+.contactInfo div a:hover {
+  color: rgb(177, 177, 177);
+}
+
 .contactForm {
   display: flex;
   flex-direction: column;

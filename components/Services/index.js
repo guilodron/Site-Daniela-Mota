@@ -14,11 +14,11 @@ const Services = () => {
       <div className={styles.services}>
         <h2>Serviços</h2>
         <div data-aos="fade-up" className={styles.serviceIcons}>
-          <ServiceCell icon={ContactSupportOutlinedIcon}>
-            Consultoria jurídica condominial  
-          </ServiceCell>
           <ServiceCell icon={GavelRoundedIcon}>
-            Cobrança Condominial e combate a inadimplência  
+            Cobrança judicial e extrajudicial (combate a inadimplência)  
+          </ServiceCell>
+          <ServiceCell icon={ContactSupportOutlinedIcon}>
+            Consultoria jurídica cível e condominial  
           </ServiceCell>
           <ServiceCell icon={FindInPageOutlinedIcon}>
             Elaboração e correção de Convenção e Regimento Interno  
