@@ -1,5 +1,6 @@
 .articlePageContainer {
   width: 100%;
+  min-height: calc(100vh - 190px);
   max-width: 1295px;
   margin: 0 auto;
   margin-top: 50px;
@@ -96,4 +97,10 @@
   margin-top: 7px;
   color: #6C6767;
   text-align: right;
+}
+
+.loading {
+  position: absolute;
+  top: 50%;
+  left: calc(50% - 30px);
 }
