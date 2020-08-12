@@ -6,9 +6,10 @@ import styles from './photos.module.css';
 const Photos = () => {
 
   const customCaptions = [
-    { id: 0, caption: 'Recebimento do certificado do Congresso Condominial de Goiás' },
-    { id: 1, caption: 'Curso de capacitação' },
-    { id: 2, caption: 'Palestra no II Congresso Condominial de Goiás' },
+    { id: 0, caption: 'Palestrante do Segundo Congresso de Direito Condominial e Imobiliário de Goiás' },
+    { id: 1, caption: 'Palestra sobre garantias contratuais e redução de custos' },
+    { id: 2, caption: 'Curso de capacitação' },
+    { id: 3, caption: 'Palestra no II Congresso Condominial de Goiás' },
   ]
 
   return (
@@ -26,6 +27,7 @@ const Photos = () => {
 
               <img src="https://i.imgur.com/Kvl2uU3.jpg"></img>
 
+              <img src="https://i.imgur.com/7lowW2o.jpg"></img>
               <img src="https://i.imgur.com/rgLVPUU.jpg"></img>
               <img src="https://i.imgur.com/woqKpKA.jpg"></img>
 

@@ -1,5 +1,6 @@
 .container {
   min-height: calc(100vh - 160px);
+  margin-bottom: 20px;
 }
 
 .titleAndDescription {
@@ -47,5 +48,9 @@
   .gallery {
     grid-template-columns: auto;
     justify-content: center;
+  }
+
+  .gallery img {
+    max-height: none;
   }
 }
