@@ -6,10 +6,13 @@ import styles from './photos.module.css';
 const Photos = () => {
 
   const customCaptions = [
-    { id: 0, caption: 'Palestrante do Segundo Congresso de Direito Condominial e Imobiliário de Goiás' },
-    { id: 1, caption: 'Palestra sobre garantias contratuais e redução de custos' },
+    { id: 0, caption: 'Palestrante do Segundo Congresso de Direito Condominial e Imobiliário de Goiás.' },
+    { id: 1, caption: 'Palestra sobre garantias contratuais e redução de custos.' },
     { id: 2, caption: 'Curso de capacitação' },
-    { id: 3, caption: 'Palestra no II Congresso Condominial de Goiás' },
+    { id: 3, caption: 'Palestra no II Congresso Condominial de Goiás.' },
+    { id: 4, caption: 'Registro com a advogada  Tereza Arruda Alvim no seminário imobiliário.' },
+    { id: 5, caption: 'Registro ao lado do renomado Dr sylvio Capanema no congresso de Goiás. ' },
+  
   ]
 
   return (
@@ -30,7 +33,8 @@ const Photos = () => {
               <img src="https://i.imgur.com/7lowW2o.jpg"></img>
               <img src="https://i.imgur.com/rgLVPUU.jpg"></img>
               <img src="https://i.imgur.com/woqKpKA.jpg"></img>
-
+              <img src="https://i.imgur.com/YEJUEt5.jpg"></img>
+              <img src="https://i.imgur.com/6rhR5Yi.jpg"></img>
             </div>
 
           </SRLWrapper>

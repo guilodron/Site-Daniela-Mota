@@ -20,11 +20,14 @@
 }
 
 .gallery {
-  display: grid;
+  /* display: grid;
   justify-content: center;
 
   gap: 10px;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   max-width: 1295px;
   width: 100%;
   margin: 0 auto;
@@ -35,6 +38,7 @@
   max-width: 400px;
   max-height: 400px;
   height: auto;
+  margin: 5px;
 }
 
 @media(max-width: 1200px) {
