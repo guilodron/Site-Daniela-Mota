@@ -18,7 +18,7 @@ const Services = () => {
             Cobrança judicial e extrajudicial (combate a inadimplência)  
           </ServiceCell>
           <ServiceCell icon={ContactSupportOutlinedIcon}>
-            Consultoria jurídica cível e condominial  
+            Consultoria jurídica cível/condominial e assessoria de assembleia virtual
           </ServiceCell>
           <ServiceCell icon={FindInPageOutlinedIcon}>
             Elaboração e correção de Convenção e Regimento Interno  
