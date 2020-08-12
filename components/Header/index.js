@@ -21,6 +21,8 @@ const Header = () => {
           <li><Link href="/articles"><a>Artigos</a></Link></li>
           <li><Link href="/#contact"><a>Contato</a></Link></li>
           <li><Link href="/#media"><a>Mídia</a></Link></li>
+          <li><Link href="/photos"><a>Fotos/Eventos</a></Link></li>
+
 
         </ul>
       </div>

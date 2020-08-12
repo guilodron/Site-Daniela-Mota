@@ -1,0 +1,51 @@
+.container {
+  min-height: calc(100vh - 160px);
+}
+
+.titleAndDescription {
+  text-align: center;
+}
+
+.titleAndDescription h2 {
+  font-size: 18px;
+  color: #6C6767;
+  font-weight: 500;
+}
+
+.titleAndDescription h3 {
+  font-size: 14px;
+  color: #858282;
+  font-weight: 300;
+}
+
+.gallery {
+  display: grid;
+  justify-content: center;
+
+  gap: 10px;
+  grid-template-columns: auto auto auto;
+  max-width: 1295px;
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.gallery img {
+  max-width: 400px;
+  max-height: 400px;
+  height: auto;
+}
+
+@media(max-width: 1200px) {
+  .gallery {
+    grid-template-columns: auto auto;
+    justify-content: center;
+  }
+}
+
+@media(max-width: 840px) {
+  .gallery {
+    grid-template-columns: auto;
+    justify-content: center;
+  }
+}
