@@ -52,12 +52,15 @@
     margin: 0;
     right: -100%;
     color: white;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     z-index: 2;
     transition: 0.3s;
   }
-
+  .nav li{  
+    margin-bottom: 50px;
+    font-size: 22px;
+  }
   .line {
     width: 30px;
     height: 3px;
@@ -65,7 +68,7 @@
     margin: 5px;  
   }
   .hamburguer {
-    position: absolute;
+    position: fixed;
     cursor: pointer;
     right: 20px;
     top: 30px;

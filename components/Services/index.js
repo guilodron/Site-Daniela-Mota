@@ -21,7 +21,7 @@ const Services = () => {
             Consultoria jurídica cível/condominial e assessoria de assembleia virtual
           </ServiceCell>
           <ServiceCell icon={FindInPageOutlinedIcon}>
-            Elaboração e correção de Convenção e Regimento Interno  
+            Elaboração e atualização de Convenção e Regimento Interno  
           </ServiceCell>
           <ServiceCell icon={ShowChartOutlinedIcon}>
             Palestras de direito imobiliário e condominial  
