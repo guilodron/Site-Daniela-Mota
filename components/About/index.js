@@ -18,7 +18,7 @@ const About = () => {
         Pós graduada em Direito Notarial e Registral.<br/><br/>
         Curso de extensão em Direito Imobiliário.<br/><br/>
         Palestrante.<br/><br/>
-        Curso de formação para profissionais do ramo Condominial e Imobiliário. <br/><br/>
+        Cursos de aperfeiçoamento e atualização para interessados no ramo Condominial e Imobiliário. <br/><br/>
         Expertise na área de segurança de dados (LGPD) para condomínios, administradoras e escritórios de advocacia.<br/><br/>
         </p>
       </div>
