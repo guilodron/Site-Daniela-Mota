@@ -26,7 +26,7 @@ const Article = ({article}) => {
                   }).format(new Date(article.created_at))}
           </span>
           <h2>{article.subtitle}</h2>
-          <p style={{whiteSpace: 'pre-wrap'}}>{article.content}</p>
+          <p dangerouslySetInnerHTML={{__html: article.content}} style={{whiteSpace: 'pre-wrap'}}></p>
         </div>
       </main>
     </Layout>

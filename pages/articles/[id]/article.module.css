@@ -49,6 +49,9 @@
   line-height: 140%;
   color: #6C6767;
 }
+.article p strong{
+  color: #000000;
+}
 
 @media(max-width: 950px){
   .article h1 {
