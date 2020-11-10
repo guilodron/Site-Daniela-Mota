@@ -5,8 +5,7 @@ const Banner = () => {
   return (
     <section className={styles.banner}>
       <h1>Daniela Mota</h1>
-      <h2>Advogada Especialista em Direito Condominial
-        e Imobiliário.
+      <h2>Advogada Especialista em Condomínios e Imóveis.
       </h2>
     </section>
   );

@@ -30,6 +30,7 @@ const Contact = () =>{
         </div>
         <div className={styles.contactForm}>
           <span style={{marginBottom: 10, color: '#E6D4A8', fontSize: 24}}>Em que posso ajudar?</span>
+          <span style={{marginBottom: 10, color: '#969385', fontSize: 14, textAlign: 'center'}}>Suas informações serão utilizadas apenas para identificação de contato.</span>
           <Formik
             initialValues={{ name: '', emailOrPhone: '', text: '' }}
             validate={values => {

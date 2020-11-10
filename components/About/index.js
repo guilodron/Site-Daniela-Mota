@@ -13,7 +13,7 @@ const About = () => {
           Sobre mim
         </h2>
         <p>
-        Consultoria e treinamento para condomínios, prestadoras de serviços e empresas diante da LGPD (Lei Geral de Proteção de Dados).<br/><br/>
+        Realizo consultoria, assessoria  jurídica e implementação de programas  para adequação dos condomínios e empresas à LGPD (Lei Geral de Proteção de Dados).<br/><br/>
         Advogada especialista em Direito Condominial e Imobiliário.<br/><br/>
         Consultora da Comissão Especial de Direito Condominial da OAB Federal.<br/><br/>
         Pós graduada em Direito Notarial e Registral.<br/><br/>
